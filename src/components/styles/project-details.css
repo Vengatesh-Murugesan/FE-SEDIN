@@ -75,3 +75,8 @@
 .delete-icon {
   color: red;
 }
+
+.data-not-found {
+  font-weight: bold;
+  color: yellow;
+}

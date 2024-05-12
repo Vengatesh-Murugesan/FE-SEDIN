@@ -109,7 +109,7 @@ function ProjectDetails() {
     return (
       <div className="task-cards-container">
         {tasks?.length === 0 ? (
-          <p>No tasks found for this project.</p>
+          <p className="data-not-found">No tasks found for this project.</p>
         ) : (
           tasks?.map((task) => (
             <Card
