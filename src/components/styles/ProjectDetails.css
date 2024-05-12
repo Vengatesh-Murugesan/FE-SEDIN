@@ -1,0 +1,73 @@
+.project-details-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #3f51b5, #8bc34a);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.project-details-content {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.project-details-title {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  margin-bottom: 20px;
+}
+
+.tasks-title {
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.task-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-card {
+  flex: 1 1 300px;
+  margin: 0 10px 20px;
+}
+
+.task-card .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.task-card .card-text {
+  color: #6c757d;
+}
+
+.task-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.edit-task-link {
+  color: #007bff;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover,
+.edit-task-link:hover {
+  color: #dc3545;
+}
+
+.card-body .task-icons {
+  justify-content: flex-end;
+  gap: 15px;
+}

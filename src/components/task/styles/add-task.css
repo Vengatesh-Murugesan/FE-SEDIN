@@ -1,0 +1,39 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.textarea-control {
+  resize: vertical;
+}
+
+.submit-button {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.add-task-container .btn.btn-secondary {
+  width: 100%;
+}

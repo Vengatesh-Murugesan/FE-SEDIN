@@ -1,0 +1,43 @@
+.project-list-container {
+  padding: 20px;
+  background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+  min-height: 100vh;
+}
+
+.project-list-title {
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-project-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
