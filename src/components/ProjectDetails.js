@@ -58,7 +58,13 @@ function ProjectDetails() {
   };
 
   if (loading || !project) {
-    return <div>Loading...</div>;
+    return (
+      <div className="d-flex justify-content-center align-items-center vh-100">
+        <div className="spinner-border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    );
   }
   const handleCloseError = () => {
     setError(null);
