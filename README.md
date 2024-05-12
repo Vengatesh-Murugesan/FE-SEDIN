@@ -15,3 +15,9 @@
 ## View project details: Click on a project from the project list to view its details, including tasks associated with it.
 
 ## Add tasks to a project: While viewing a project's details, click on the "Add Task" button to add a new task. Enter the task name, description, and status, then click "Add Task".
+
+3. **Hosted in netlify**:
+
+## Click on the below link to open the site
+
+https://project-task-management.netlify.app/
