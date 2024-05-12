@@ -55,8 +55,8 @@ function ProjectList() {
     return projects.map((project) => (
       <Card className="mt-3" key={project._id}>
         <Card.Body>
-          <Card.Title>{project.name}</Card.Title>
-          <Card.Text>{project.description}</Card.Text>
+          <Card.Title>{project?.name}</Card.Title>
+          <Card.Text>{project?.description}</Card.Text>
           <Link to={`/projects/${project._id}`}>
             <Button variant="primary">View Project</Button>
           </Link>
@@ -71,7 +71,7 @@ function ProjectList() {
       <h1 className="project-list-title">Projects</h1>
       {renderAddProjectButton()}
 
-      {projects.length === 0 ? (
+      {projects?.length === 0 ? (
         <Card className="mt-3">
           <Card.Body>No Project Found</Card.Body>
         </Card>
