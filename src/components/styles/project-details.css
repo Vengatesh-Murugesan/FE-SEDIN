@@ -18,7 +18,7 @@
 }
 
 .project-card {
-  margin-bottom: 20px;
+  margin: 0 10px;
 }
 
 .tasks-title {
@@ -70,4 +70,8 @@
 .card-body .task-icons {
   justify-content: flex-end;
   gap: 15px;
+}
+
+.delete-icon {
+  color: red;
 }
