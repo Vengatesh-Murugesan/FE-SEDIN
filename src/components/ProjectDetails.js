@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Alert, Card } from "react-bootstrap";
 import { FaEdit, FaTrash } from "react-icons/fa";
-import "./styles/ProjectDetails.css";
+import "./styles/project-details.css";
 import {
   deleteTask,
   getProjectDetails,
